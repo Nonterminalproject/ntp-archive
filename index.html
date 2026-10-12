@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NON TERMINAL PROJECT — ARCHIVE</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #f2f2ef;
+      color: #0a0a0a;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 22px 25px;
+      border-bottom: 1px solid #111;
+      font-size: 12px;
+    }
+
+    .brand {
+      font-weight: bold;
+      letter-spacing: -0.3px;
+    }
+
+    .archive-number {
+      text-align: right;
+      line-height: 1.4;
+    }
+
+    .hero {
+      min-height: 68vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 25px;
+      border-bottom: 1px solid #111;
+    }
+
+    .label {
+      font-size: 11px;
+      margin-bottom: 12px;
+      letter-spacing: 1px;
+    }
+
+    h1 {
+      font-size: clamp(55px, 10vw, 160px);
+      line-height: 0.82;
+      letter-spacing: -7px;
+      font-weight: 700;
+      max-width: 1400px;
+    }
+
+    .info {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-bottom: 1px solid #111;
+    }
+
+    .info div {
+      min-height: 130px;
+      padding: 20px 25px;
+      border-right: 1px solid #111;
+      font-size: 11px;
+      line-height: 1.6;
+    }
+
+    .info div:last-child {
+      border-right: none;
+    }
+
+    .section {
+      padding: 80px 25px;
+    }
+
+    .section-title {
+      font-size: 11px;
+      letter-spacing: 1px;
+      margin-bottom: 50px;
+    }
+
+    .garment {
+      border-top: 1px solid #111;
+      padding: 20px 0;
+      display: grid;
+      grid-template-columns: 160px 1fr 200px;
+      font-size: 13px;
+      transition: 0.2s;
+      cursor: pointer;
+    }
+
+    .garment:hover {
+      padding-left: 10px;
+      background: #111;
+      color: #f2f2ef;
+    }
+
+    .garment-name {
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+
+    footer {
+      margin-top: 100px;
+      padding: 25px;
+      border-top: 1px solid #111;
+      display: flex;
+      justify-content: space-between;
+      font-size: 10px;
+    }
+
+    @media (max-width: 700px) {
+      h1 {
+        letter-spacing: -3px;
+      }
+
+      .info {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .garment {
+        grid-template-columns: 80px 1fr;
+      }
+
+      .garment-year {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="brand">
+    NON TERMINAL PROJECT®
+  </div>
+
+  <div class="archive-number">
+    RESEARCH ARCHIVE<br>
+    YEAR 2026
+  </div>
+</header>
+
+
+<section class="hero">
+
+  <div class="label">
+    NTP / DIGITAL GARMENT DATABASE
+  </div>
+
+  <h1>
+    RESEARCH<br>
+    ARCHIVE
+  </h1>
+
+</section>
+
+
+<section class="info">
+
+  <div>
+    PROJECT<br><br>
+    NON TERMINAL PROJECT
+  </div>
+
+  <div>
+    STUDY<br><br>
+    SURVIVAL / ADAPTATION / IDENTITY
+  </div>
+
+  <div>
+    LOCATION<br><br>
+    UNITED STATES
+  </div>
+
+  <div>
+    ARCHIVE<br><br>
+    2026 — ONGOING
+  </div>
+
+</section>
+
+
+<section class="section">
+
+  <div class="section-title">
+    [ GARMENT RECORDS ]
+  </div>
+
+
+  <div class="garment">
+    <div>NTP-001</div>
+
+    <div class="garment-name">
+      Obsidian Scale Jacket
+    </div>
+
+    <div class="garment-year">
+      2026 / 1 OF 1
+    </div>
+  </div>
+
+
+  <div class="garment">
+    <div>NTP-002</div>
+
+    <div class="garment-name">
+      Stonewalker Jacket
+    </div>
+
+    <div class="garment-year">
+      2026 / 1 OF 1
+    </div>
+  </div>
+
+
+  <div class="garment">
+    <div>NTP-003</div>
+
+    <div class="garment-name">
+      Hyena Jacket
+    </div>
+
+    <div class="garment-year">
+      2026 / 1 OF 1
+    </div>
+  </div>
+
+
+  <div class="garment">
+    <div>NTP-004</div>
+
+    <div class="garment-name">
+      Squid Jacket
+    </div>
+
+    <div class="garment-year">
+      2026 / 1 OF 1
+    </div>
+  </div>
+
+
+  <div class="garment">
+    <div>NTP-005</div>
+
+    <div class="garment-name">
+      Druid Hoodie
+    </div>
+
+    <div class="garment-year">
+      2026 / 1 OF 1
+    </div>
+  </div>
+
+</section>
+
+
+<footer>
+
+  <div>
+    NON TERMINAL PROJECT
+  </div>
+
+  <div>
+    A NEVER-ENDING STUDY OF SURVIVAL,<br>
+    ADAPTATION, AND IDENTITY.
+  </div>
+
+  <div>
+    © 2026
+  </div>
+
+</footer>
+
+</body>
+</html>
